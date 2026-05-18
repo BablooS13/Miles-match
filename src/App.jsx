@@ -69,7 +69,7 @@ async function fetchTivraPayData(indiaToken) {
 headers: {
   Accept: 'application/json',
   indiatoken: indiaToken,
-'x-rs-cfg-milesreqgate': 'A7K9X2M8Q4P1Z'
+'x-rs-cfg-milesreqgate': 'A7M2X9Q4L8KP'
 },
   }
 

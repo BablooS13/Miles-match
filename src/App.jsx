@@ -4,8 +4,7 @@ import accountsFileUrl from './assets/accounts.xlsx?url'
 
 const BASE_URL = 'https://api.gronix.xyz/xxapi/buyitoken/waitpayerpaymentslip'
 const REQUEST_LIMIT = 200
-const TOKEN_STORAGE_KEY = 'tivrapay-indiatoken'
-
+const TOKEN_STORAGE_KEY = 'milespay-indiatoken'
 const OUTPUT_HEADERS = [
   'rptNo',
   'orderNo',

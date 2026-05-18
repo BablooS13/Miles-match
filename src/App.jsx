@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react'
 import * as XLSX from 'xlsx'
 import accountsFileUrl from './assets/accounts.xlsx?url'
 
-const BASE_URL = 'https://api.h5r1xc.xyz/xxapi/buyitoken/waitpayerpaymentslip'
+const BASE_URL = 'https://api.gronix.xyz/xxapi/buyitoken/waitpayerpaymentslip'
 const REQUEST_LIMIT = 200
 const TOKEN_STORAGE_KEY = 'tivrapay-indiatoken'
 
@@ -70,7 +70,7 @@ async function fetchTivraPayData(indiaToken) {
 headers: {
   Accept: 'application/json',
   indiatoken: indiaToken,
-  'x-rs-cfg-tivpayreqgate': 'A7K9X2M8Q4P1Z'
+x-rs-cfg-milesreqgate': 'A7K9X2M8Q4P1Z'
 },
   }
 
